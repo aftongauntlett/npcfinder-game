@@ -1,0 +1,11 @@
+export const TILE_SIZE = 32;
+export const WORLD_WIDTH_TILES = 40;
+export const WORLD_HEIGHT_TILES = 24;
+
+export const WORLD_PIXEL_WIDTH = WORLD_WIDTH_TILES * TILE_SIZE;
+export const WORLD_PIXEL_HEIGHT = WORLD_HEIGHT_TILES * TILE_SIZE;
+
+export const PLAYER_SPEED = 180;
+
+export const PLAYER_FRAME_WIDTH = 16;
+export const PLAYER_FRAME_HEIGHT = 32;

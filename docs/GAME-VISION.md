@@ -43,3 +43,9 @@ Stardew Valley-adjacent. Top-down 2D tile-based. Warm, cozy palette. Character a
 - Vite + TypeScript
 - Supabase (future — auth, home state, friend graph)
 - Deployed separately from npcfinder, embedded via iframe or subdomain
+
+## Implementation Notes (Current)
+
+- PRD-01 starts with a single outdoor world scene using placeholder assets in `public/assets/`.
+- Initial interaction assumptions for prototyping: keyboard movement (`WASD` + arrow keys), camera follow, and collision blockers for water/trees.
+- This is a foundation slice only; decoration, visit flow, and friend-gated access are handled in later PRDs.
