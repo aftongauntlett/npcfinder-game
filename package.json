@@ -1,0 +1,28 @@
+{
+  "name": "npcfinder-game",
+  "version": "1.0.0",
+  "description": "A cozy, low-pressure 2D social game prototype for npcfinder.com built with Phaser 3 and Vite.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aftongauntlett/npcfinder-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aftongauntlett/npcfinder-game/issues"
+  },
+  "homepage": "https://github.com/aftongauntlett/npcfinder-game#readme",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^8.0.0"
+  }
+}
